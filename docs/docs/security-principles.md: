@@ -1,0 +1,11 @@
+# Security principles
+
+- Private repository during development.
+- No real citizen or government data in development.
+- No credentials or API secrets in source code.
+- Enforce row-level access controls before exposing data.
+- Use least privilege.
+- Log sensitive actions.
+- Test both allowed and denied access.
+- Obtain authorization before integrating government systems.
+- Obtain independent security review before handling sensitive data.
